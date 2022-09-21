@@ -457,6 +457,7 @@ class AntHelper extends Object {
     var request = new Map();
     request['command'] = 'join';
     request['streamId'] = streamId;
+    request['token'] = 'tokenId';
     request['multiPeer'] = false;
     request['mode'] = 'play or both';
     _sendAntMedia(request);
